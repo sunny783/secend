@@ -1,0 +1,36 @@
+.info {
+    z-index: 999;
+    width: auto;
+    min-width: 16rem;
+    padding: .75rem 1.25rem;
+    margin-left: 1.25rem;
+    position: absolute;
+    top: 1rem;
+    background-color: rgba(265, 265, 265, 0.9);
+    border-radius: .25rem;
+    font-size: 14px;
+    color: #666;
+    box-shadow: 0 2px 6px 0 rgba(27, 142, 236, 0.3);
+}
+
+.map1 {
+    position: relative;
+}
+
+#zoominput {
+    height: 24px;
+    width: 80px;
+    padding-left: 8px;
+}
+
+#change-btn {
+    height: 30px;
+    background: #5679ea;
+    border: 0;
+    padding: 0 10px 0 10px;
+    margin-right: 8px;
+    cursor: pointer;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 14px;
+}

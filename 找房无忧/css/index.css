@@ -83,7 +83,7 @@ div.bg-img {
 
 div.bg-img>img:nth-of-type(1) {
     width: 100%;
-    width: 32rem;
+    /* width: 32rem; */
     height: 22rem;
 }
 
@@ -120,6 +120,7 @@ div.sort {
 div.sort>ul {
     padding-left: 1.5rem;
     width: 100%;
+    box-sizing: border-box;
     display: flex;
     align-items: center;
     justify-content: space-around;

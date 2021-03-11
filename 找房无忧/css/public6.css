@@ -1,0 +1,307 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+
+/* 顶部样式 */
+
+.top {
+    width: 100%;
+    height: 4.1rem;
+    background-color: #ff8a00;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 3.5rem;
+    width: 9.9rem;
+    height: 3.2rem;
+}
+
+.right {
+    margin-right: 3.5rem;
+}
+
+.right img {
+    width: 2.6rem;
+    height: 3.2rem;
+}
+
+.my {
+    margin-right: 2.3rem;
+}
+
+.first {
+    height: 3.7rem;
+    line-height: 3.7rem;
+    border-bottom: 1px solid #c5c5c5;
+}
+
+.one {
+    margin-left: 1.6rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-right: .8rem;
+}
+
+.two {
+    font-size: 1.2rem;
+    margin-left: .8rem;
+    margin-right: .8rem;
+}
+
+.three {
+    font-size: 1.2rem;
+    margin-left: .8rem;
+}
+
+.banner {
+    width: 100%;
+    height: 18.5rem;
+    position: relative;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+}
+
+.share {
+    /* z-index: 10rem; */
+    font-size: 1.2rem;
+    color: #fff;
+    width: 6.3rem;
+    height: 4rem;
+    background-color: black;
+    opacity: .5;
+    position: absolute;
+    border-radius: 1rem 0rem 0rem 1rem;
+    text-align: center;
+    line-height: 4rem;
+    bottom: .7rem;
+    right: 0rem;
+}
+
+
+/* 房屋介绍部分 */
+
+.title {
+    width: 100%;
+    height: 7.5rem;
+    border-bottom: 1px solid #dcdcdc;
+    font-size: 0;
+}
+
+.ind {
+    width: 25.3rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: black;
+    padding-top: 1.8rem;
+    padding-left: 0.8rem;
+}
+
+.xin {
+    position: relative;
+    height: 7.4rem;
+    width: 7.3rem;
+    margin-top: -6.6rem;
+    margin-left: 24.5rem;
+    border: 1px solid #dcdcdc;
+    border-top: none;
+    border-bottom: none;
+}
+
+.xin img {
+    width: 2rem;
+    height: 2rem;
+    margin-top: 2rem;
+    margin-left: 2.7rem;
+}
+
+.xin span {
+    display: block;
+    position: absolute;
+    left: 2.5rem;
+    top: 4.3rem;
+    font-size: 1.2rem;
+    color: #666666;
+}
+
+
+/* 租金详情部分 */
+
+.value {
+    padding-top: 3.1rem;
+    display: flex;
+    border-bottom: 1px solid #dcdcdc;
+    background-color: #f5f5f5;
+}
+
+.price {
+    width: 33.3%;
+    border-right: 1px solid #dcdcdc;
+    margin-bottom: 3.1rem;
+}
+
+.rent {
+    display: block;
+    font-size: 1.2rem;
+    line-height: 2.4rem;
+    text-align: center;
+}
+
+.qian {
+    display: block;
+    font-size: 1.2rem;
+    color: #ff8a00;
+    margin-left: 2.6rem;
+    margin-top: -1.5rem;
+}
+
+
+/* 楼层装饰部分 */
+
+.f_f {
+    height: 5rem;
+    line-height: 5rem;
+    margin-left: 2.2rem;
+    margin-right: 2.2rem;
+    border-bottom: 1px solid #dcdcdc;
+}
+
+.f_f span {
+    font-size: 1.2rem;
+}
+
+.gao {
+    display: inline-block;
+    margin-right: 4.6rem;
+}
+
+.de {
+    display: inline-block;
+    margin-right: 7.7rem;
+}
+
+.year {
+    display: inline-block;
+    margin-right: 6.3rem;
+}
+
+
+/* section部分 */
+
+section {
+    background-color: #f5f5f5;
+    padding-top: 1.2rem;
+    padding-bottom: .2rem;
+}
+
+.box {
+    width: 30.4rem;
+    /* height: 14.6rem; */
+    border: 1px solid #dcdcdc;
+    margin: auto;
+    margin-bottom: 1.2rem;
+}
+
+.eval {
+    width: 100%;
+    height: 4.5rem;
+    border-bottom: 1px solid #dcdcdc;
+    line-height: 4.5rem;
+    position: relative;
+}
+
+.eva {
+    font-size: 1.8rem;
+    color: #ff8a00;
+    font-weight: 600;
+    margin-left: 1.9rem;
+}
+
+.right1 {
+    position: absolute;
+    right: 1rem;
+    color: #b8b8b8;
+    font-size: 1.8rem;
+}
+
+.box p {
+    margin-left: 1.4rem;
+    margin-top: 1.4rem;
+    line-height: 1.8rem;
+    margin-bottom: 1.4rem;
+}
+
+.map {
+    width: 28.3rem;
+    border: 1px solid #dcdcdc;
+    margin-top: 1.2rem;
+    margin-left: 1.1rem;
+}
+
+.map img {
+    width: 100%;
+}
+
+#container {
+    width: 100%;
+    height: 20rem;
+}
+
+.adr {
+    font-size: 1.4rem;
+    font-weight: 600;
+    width: 28.3rem;
+    height: 3.2rem;
+    line-height: 3.2rem;
+}
+
+.bottom0 {
+    display: flex;
+    align-items: center;
+}
+
+.man {
+    margin: 1rem;
+    flex-grow: 2;
+    width: 4.1rem;
+    height: 4.3rem;
+}
+
+.pho {
+    flex-grow: 4;
+}
+
+.to,
+.news {
+    flex-grow: 2;
+    margin-top: .5rem;
+}
+
+.to img,
+.news img {
+    width: 3rem;
+    height: 3rem;
+}
+
+.to span {
+    display: block;
+    font-size: 1.2rem;
+    color: #5dcb96;
+}
+
+.news span {
+    display: block;
+    font-size: 1.2rem;
+    color: #5baede;
+}

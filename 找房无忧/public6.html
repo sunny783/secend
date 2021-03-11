@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>房源信息</title>
+    <link rel="stylesheet" href="./css/public6.css">
+    <link rel="stylesheet" href="./css/touwei.css">
+    <script src="./js/public.js"></script>
+    <script type="text/javascript" src="https://api.map.baidu.com/api?v=1.0&&type=webgl&ak=bLY2UjlEDvgsuE5XZ0NQGqQZhLDPPMUE"></script>
+
+
+</head>
+
+<body>
+    <div class="top">
+        <img src="./index/logo.jpg" alt="" class="logo">
+        <div class="right">
+            <img src="./image/index/my.jpg" alt="" class="my">
+            <img src="./image/index/xiazai.jpg" alt="">
+
+        </div>
+    </div>
+    <div class="first">
+        <span class="one">首页</span>><span class="two">北京租房</span>><span class="three">房源信息</span>
+    </div>
+    <div class="banner">
+        <img src="./image/rentalList/banner.png" alt="">
+        <div class="share">分享</div>
+    </div>
+    <div class="title">
+        <div class="ind">
+            天鹅湾小区精装两居，满五唯<br>一，业主换房急售
+        </div>
+        <div class="xin">
+            <img src="./image/rentalList/xin.png" alt="">
+            <span>关注</span>
+        </div>
+    </div>
+    <div class="value">
+        <div class="price">
+            <span class="rent">租金</span><br>
+            <span class="qian">2300元/月</span>
+        </div>
+        <div class="price">
+            <span class="rent">房型</span><br>
+            <span class="qian">两室一厅</span>
+        </div>
+        <div class="price">
+            <span class="rent">面积</span><br>
+            <span class="qian">204平方</span>
+        </div>
+    </div>
+    <div class="floor">
+        <div class="f_f">
+            <span class="gao">楼层：高楼/17层</span>
+            <span>朝向：南北</span>
+        </div>
+        <div class="f_f">
+            <span class="de">装修：精装</span>
+            <span>供暖：集体供暖</span>
+        </div>
+        <div class="f_f">
+            <span class="year">年代：2007年 </span>
+            <span>版型：板楼</span>
+        </div>
+    </div>
+    <section>
+        <div class="box">
+            <div class="eval">
+                <span class="eva">经纪人房评</span><span class="right1">></span>
+            </div>
+            <p>
+                地理位置：晶都国际处于酒仙桥中心地带，毗邻北京三大商圈，紧邻丽都商圈，隔四环与望京商圈 相望，西南紧挨燕莎商圈，地理位置优越。周边配套：颐堤港商业中心，兆维大厦...
+            </p>
+        </div>
+        <div class="box">
+            <div class="eval">
+                <span class="eva">看房客户记录</span><span class="right1">></span>
+            </div>
+            <p>
+                近一个月新增0位看房客户，共50位
+            </p>
+        </div>
+        <div class="box">
+            <div class="eval">
+                <span class="eva">位置及周边</span><span class="right1">></span>
+            </div>
+            <div class="map">
+                <div class="adr">
+                    地址：[黄村]时代龙和
+                </div>
+                <div id="container">
+                    <!-- <img src="./image/rentalList/map.png" alt=""> -->
+                </div>
+
+            </div>
+        </div>
+        <div class="box">
+            <div class="eval">
+                <span class="eva">小区成交历史</span><span class="right1">></span>
+            </div>
+            <p>
+                3 室 2 厅，146平米，5000元<br><br> 签约日期：2015-02-26
+            </p>
+        </div>
+    </section>
+    <div class="bottom0">
+        <img src="./image/rentalList/man.png" alt="" class="man">
+        <div class="pho">
+            <span>张三</span><br>
+            <span>4008581855转0008</span>
+        </div>
+        <div class="to">
+            <img src="./image/rentalList/icon1.png" alt="">
+            <span>致电</span>
+        </div>
+        <div class="news">
+            <img src="./image/rentalList/icon2.png" alt="">
+            <span>短信</span>
+        </div>
+
+    </div>
+    <footer>
+        <div class="back-index">
+            <p>北京找房无忧&gt;<a href="#">首页</a></p>
+        </div>
+        <div class="client">
+            <div>
+                <img src="./image/index/apple.png" alt="">
+                <p>iphone客户端</p>
+            </div>
+            <div>
+                <img src="./image/index/android.png" alt="">
+                <p>Android客户端</p>
+            </div>
+        </div>
+        <div class="bottom">
+            <p>北京找房无忧地产经纪</p>
+            <p>网络经营许可证京ICP备20170202</p>
+        </div>
+    </footer>
+</body>
+<script>
+    var map = new BMapGL.Map("container");
+    // var point = new BMapGL.Point(116.404, 39.915);
+    map.centerAndZoom('洛阳市', 15);
+    // map.centerAndZoom(new BMapGL.Point(116.404, 39.915), 11);  // 初始化地图,设置中心点坐标和地图级别
+    map.enableScrollWheelZoom(true); //开启鼠标滚轮缩放
+</script>
+
+</html>

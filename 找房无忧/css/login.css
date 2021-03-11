@@ -1,0 +1,54 @@
+.login {
+    width: 100%;
+    height: 4.6rem;
+    display: flex;
+    background-color: #fff;
+}
+
+.normal,
+.fast {
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    line-height: 4.6rem;
+}
+
+.normal {
+    border-bottom: .3rem solid #ff8a00;
+}
+
+.fast {
+    border-bottom: .3rem solid #d1d1d1;
+}
+
+.input1 {
+    margin-top: .5rem;
+    /* display: none; */
+}
+
+.regist {
+    display: inline-block;
+    font-size: 1.2rem;
+    color: #ff8a00;
+    margin-left: 1rem;
+    margin-top: 1.8rem;
+}
+
+.rem {
+    display: inline-block;
+    font-size: 1.2rem;
+    color: gray;
+    margin-left: 20rem;
+    margin-top: 1.8rem;
+}
+
+.input2 {
+    margin-top: 0.5rem;
+    display: none;
+}
+
+.yanzheng {
+    position: absolute;
+    top: 13.2rem;
+    left: 22rem;
+}
